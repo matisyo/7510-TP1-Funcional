@@ -1,1 +1,0 @@
-(defn mujer[& args] (some true? (map #(= args (seq %1)) (@memo "mujer")) ))

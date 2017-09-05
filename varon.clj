@@ -1,1 +1,0 @@
-(defn varon[& args] (some true? (map #(= args (seq %1)) (@memo "varon")) ))
