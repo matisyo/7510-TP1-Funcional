@@ -10,7 +10,7 @@
 (deftest incomplete-database-fact-test
   (testing "varon(juan) should be nil"
     (is (= (evaluate-query incomplete-database "varon(juan)")
-           nil))) 
+           nil)))
   (testing "varon(maria) should be nil"
     (is (= (evaluate-query incomplete-database "varon(maria)")
            nil))) 
